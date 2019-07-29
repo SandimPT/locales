@@ -22,7 +22,7 @@
         "notSupplied": "Not supplied.",
         "notDefined": "Not defined.",
         "links": "[**Support Server**](%s) | [**Add**](%s) | [**Vote**](%s) | [**GitHub**](%s)\n\n**[Prefixex]:** `d!<command>`, `li <command>`\n\u200b",
-        "categoryCommands": "**Comandos de %s**: (%s)",
+        "categoryCommands": "**%s Commands**: (%s)",
         "tip": "Type **%s <Command>** to see more information about a command."
     },
     "ping": {
