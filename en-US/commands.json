@@ -1,10 +1,10 @@
 {
     "invite": {
         "cmdDescription": "Envia o link de convite para adicionar o Bot.",
-        "text": "[Clique aqui para adicionar o **Disco** em seu servidor]({link})"
+        "text": "[Click here to add **Disco** to your server]({link})"
     },
     "botinfo": {
-        "cmdDescription": "Mostra informações sobre o Bot.",
+        "cmdDescription": "Shows informations of the bot.",
         "statistics": "Statistics",
         "links": "[**Support Server**]({support}) | [**Invite**]({invite}) | [**Vote**]({vote}) | [**GitHub**]({github})\n\u200b",
         "generalInfoTitle": "**GENERAL INFORMATION**",
@@ -13,8 +13,8 @@
     },
     "help": {
         "cmdUsage": "[Command]",
-        "cmdDescription": "Lista detalhadamente todos os comandos do Bot.",
-        "notFound": "{emoji} **{author}**, eu não encontrei nenhum comando com o nome fornecido.",
+        "cmdDescription": "Shows a detailed list of all bot's commands.",
+        "notFound": "{emoji} **{author}**, I didn't find no command with the specific name.",
         "commandName": "{command} Command",
         "description": "Description",
         "usage": "Usage",
@@ -30,127 +30,127 @@
     },
     "djrole": {
         "cmdUsage": "<@Mention|Name|ID>",
-        "cmdDescription": "Define o cargo DJ no servidor.",
-        "reset": "{emoji} **{author}**, você resetou o **`Cargo DJ`** desse servidor.",
-        "update": "{emoji} **{author}**, você definiu o cargo **`{role}`** como `Cargo DJ`."
+        "cmdDescription": "Define the DJ role on your server.",
+        "reset": "{emoji} **{author}**, you cleared the role **`Role DJ`** from this server.",
+        "update": "{emoji} **{author}**, you defined the role **`{role}`** as `Role DJ`."
     },
     "disablechannel": {
         "cmdUsage": "<#Mention|Name|ID>",
-        "cmdDescription": "Desativa ou ativa um canal em que o Bot possa ser usado.",
-        "allow": "{emoji} **{author}**, você me permitiu ser usado no canal {channel}.",
-        "disallow": "{emoji} **{author}**, você me proibiu de ser usado no canal {channel}."
+        "cmdDescription": "Deactivate or activate a channel where the bot can be used.",
+        "allow": "{emoji} **{author}**, gave me permission to be used in channel {channel}.",
+        "disallow": "{emoji} **{author}**, gave me permission to not be used in channel {channel}."
     },
     "disablerole": {
         "cmdUsage": "<@Mention|Name|ID>",
-        "cmdDescription": "Permite ou proíbe membros com um cargo específico de usarem o Bot.",
-        "higherRole": "{emoji} **{author}**, você não pode desativar um cargo que seja igual ou maior que o seu cargo mais alto.",
-        "enabled": "{emoji} **{author}**, você me permitiu ser usado por membros com o cargo **`{role}`**.",
-        "disabled": "{emoji} **{author}**, você me proibiu de ser usado por membros com o cargo **`{role}`**."
+        "cmdDescription": "Allows or disallows members with a specific role to use the bot.",
+        "higherRole": "{emoji} **{author}**, you can't deactivate a role which is bigger or equal to your highest role.",
+        "enabled": "{emoji} **{author}**, you gave me permission to be used by members with the role **`{role}`**.",
+        "disabled": "{emoji} **{author}**, you gave me permission to not be used by members with the role **`{role}`**."
     },
     "localban": {
         "cmdUsage": "<@Mention|Name|ID>",
-        "cmdDescription": "Permite ou proíbe um membro de usar o Bot nesse servidor.",
-        "higherMember": "{emoji} **{author}**, você não pode fazer um banimento local em um membro que possua direitos equivalentes ou maiores que o seu.",
-        "unban": "{emoji} **{author}**, você me permitiu ser usado pelo membro **`{member}`** nesse servidor.",
-        "ban": "{emoji} **{author}**, você me proibiu de ser usado pelo membro **`{member}`** nesse servidor."
+        "cmdDescription": "Allows or disallows a member to use the bot in this server.",
+        "higherMember": "{emoji} **{author}**, you can't give a local ban to a member with a role which is bigger or equal to your highest role.",
+        "unban": "{emoji} **{author}**, you gave me permission to be used by the member **`{member}`** nesse servidor.",
+        "ban": "{emoji} **{author}**, you gave me permission not to be used by the member **`{member}`** nesse servidor."
     },
     "disablecommand": {
         "cmdUsage": "<Name>",
-        "cmdDescription": "Permite ou proíbe que um comando específico seja usado nesse servidor.",
-        "cantDisable": "{emoji} **{author}**, você não pode desativar esse comando.",
-        "enabled": "{emoji} **{author}**, você permitiu o uso do comando **`{command}`** nesse servidor.",
-        "disabled": "{emoji} **{author}**, você proibiu o uso do comando **`{command}`** nesse servidor."
+        "cmdDescription": "Allows or disallows that a specific command is used in the server.",
+        "cantDisable": "{emoji} **{author}**, you can't deactivate this command.",
+        "enabled": "{emoji} **{author}**, you allowed the use of the command **`{command}`** nesse servidor.",
+        "disabled": "{emoji} **{author}**, you disabled the use of the command **`{command}`** nesse servidor."
     },
     "botchannel": {
         "cmdUsage": "<#Mention|Name|ID>",
-        "cmdDescription": "Restringe o uso do Bot a apenas um canal específico.",
-        "reset": "{emoji} **{author}**, você resetou o **`Canal do Bot`** nesse servidor.",
-        "set": "{emoji} **{author}**, você me restringiu para ser usado apenas no canal {channel}."
+        "cmdDescription": "Limits the use of the bot to a specific channel.",
+        "reset": "{emoji} **{author}**, you cleared the **`Bot Channel`** from this server.",
+        "set": "{emoji} **{author}**, you limited me to be set only on channel {channel}."
     },
     "locale": {
         "cmdUsage": "<Locale>",
-        "cmdDescription": "Altera a localidade/idioma das mensagens do Disco no servidor.",
-        "invalid": "{emoji} Você precisa especificar a localidade que deseja que eu use, **{author}**!\n\n**Linguagens Disponíveis**:\n> {available}",
-        "success": "{emoji} **{author}**, você alterou minha localidade nesse servidor para **`{locale}`**."
+        "cmdDescription": "Changes the place/language of Disco's messages on your server.",
+        "invalid": "{emoji} You must specify the language you want me to use, **{author}**!\n\n**Available langauages**:\n> {available}",
+        "success": "{emoji} **{author}**, you modified my language on this server for **`{locale}`**."
     },
     "play": {
         "cmdUsage": "<Name|URL>",
-        "cmdDescription": "Busca e adiciona a música especificada na fila de reprodução.",
-        "noResults": "{emoji} **{author}**, não consegui obter nenhum resultado para sua busca.",
-        "playlistAdded": "{emoji} Adicionei **{added}** faixas `({length})` da playlist **`{playlist}`** na fila.",
-        "trackAdded": "{emoji} Adicionei **`{track}`** `({length})` na fila.",
-        "chooseOne": "Digite o número correspondente a faixa que você deseja ouvir",
+        "cmdDescription": "Search and adds an specific track in the playlist.",
+        "noResults": "{emoji} **{author}**, couldn't find any results for your search.",
+        "playlistAdded": "{emoji} Added **{added}** tracks `({length})` from playlist **`{playlist}`** to the queue.",
+        "trackAdded": "{emoji} Added **`{track}`** `({length})` on queue.",
+        "chooseOne": "Type the number of the specific track you desire to listen",
         "searchResults": "Search Results",
         "typeToCancel": "Type \"exit\" to cancel.",
-        "connected": "{emoji} Me conectei ao canal de voz **`{channel}`**."
+        "connected": "{emoji} Connected to voice channel **`{channel}`**."
     },
     "shuffle": {
-        "cmdDescription": "Mistura as faixas da fila de reprodução.",
-        "shuffled": "{emoji} **{author}**, você misturou a fila de reprodução."
+        "cmdDescription": "Shuffles the tracks in the queue.",
+        "shuffled": "{emoji} **{author}**, you shuffled the queue."
     },
     "repeat": {
-        "cmdDescription": "Coloca em loop, a música que estiver tocando.",
-        "disable": "{emoji} **{author}**, você desativou o modo repetição para a faixa **`{track}`**.",
-        "enable": "{emoji} **{author}**, você ativou o modo repetição para a faixa **`{track}`**."
+        "cmdDescription": "Creates a loop by repeating the music you're listening.",
+        "disable": "{emoji} **{author}**, you disabled the loop on this track **`{track}`**.",
+        "enable": "{emoji} **{author}**, you enabled the loop in this track **`{track}`**."
     },
     "stop": {
-        "cmdDescription": "Limpa a fila de reprodução e desconecta o bot do canal de voz.",
-        "stopped": "{emoji} Limpei a fila & desconectei do canal **`{channel}`** a pedido de **{author}**."
+        "cmdDescription": "Clears the queue and disconnects the bot from voice channel.",
+        "stopped": "{emoji} Queue cleared and disconnect from channel **`{channel}`** as a request from **{author}**."
     },
     "volume": {
         "cmdUsage": "<1-150>",
-        "cmdDescription": "Aumenta ou diminui o volume do player.",
-        "invalidValue": "{emoji} **{author}**, você deve fornecer um valor entre **`1`** e **`150`**.",
-        "changed": "{emoji} **{author}** alterou o volume do player para **`{value}%`**."
+        "cmdDescription": "Increase or decrease the volume from the player.",
+        "invalidValue": "{emoji} **{author}**, you must specify a value between **`1`** and **`150`**.",
+        "changed": "{emoji} **{author}** player volume changed to **`{value}%`**."
     },
     "clear": {
-        "cmdDescription": "Limpa a fila de reprodução.",
-        "alreadyEmpty": "{emoji} **{author}**, a fila de reprodução já está vazia.",
-        "cleaned": "{emoji} A fila de reprodução foi limpa por **{author}**."
+        "cmdDescription": "Clears the queue.",
+        "alreadyEmpty": "{emoji} **{author}**, the queue is already cleared.",
+        "cleaned": "{emoji} the queue was cleared by **{author}**."
     },
     "pause": {
-        "cmdDescription": "Pausa e despausa a música que estiver tocando no momento.",
-        "pause": "{emoji} **{author}** pausou o player.",
-        "unpause": "{emoji} **{author}** despausou o player."
+        "cmdDescription": "Pauses or unpauses the current track.",
+        "pause": "{emoji} **{author}** paused the player.",
+        "unpause": "{emoji} **{author}** unpaused the player."
     },
     "remove": {
         "cmdUsage": "<Position>",
-        "cmdDescription": "Remove uma faixa especifica da fila de reprodução.",
-        "removed": "{emoji} **{author}**, você removeu a faixa **`{track}`** da fila de reprodução."
+        "cmdDescription": "Removes one specific track from the queue.",
+        "removed": "{emoji} **{author}**, you removed the track **`{track}`** from the queue."
     },
     "playat": {
         "cmdUsage": "<Position>",
-        "cmdDescription": "Pula para uma faixa especifica."
+        "cmdDescription": "Skips to an specific track."
     },
     "nowplaying": {
-        "cmdDescription": "Mostra detalhes sobre a música que estiver tocando.",
+        "cmdDescription": "Shows details of the track currently playing.",
         "text": "Now Playing: **[{track}]({track.uri})** `({length})` - {track.requester.mention}"
     },
     "skip": {
-        "cmdDescription": "Vota para pular a música que estiver tocando.",
-        "skippedByRequester": "{emoji} A faixa **`{track}`** foi pulada por quem a adicionou. (**{author}**)",
-        "alreadyVoted": "{emoji} **{author}**, você já votou para pular essa faixa.",
-        "voteAdded": "{emoji} **{author}** votou para pular a música atual. **`({votes}/3)`**",
-        "skipped": "{emoji} A faixa **`{track}`** foi pulada pois atingiu a quantia de votos necessários."
+        "cmdDescription": "Votes to skip the track currently playing.",
+        "skippedByRequester": "{emoji} The track **`{track}`** skipped by the one who added it. (**{author}**)",
+        "alreadyVoted": "{emoji} **{author}**, you voted already.",
+        "voteAdded": "{emoji} **{author}** voted to skip the current track. **`({votes}/3)`**",
+        "skipped": "{emoji} The track **`{track}`** was skipped as it achieved the necessary number of votes."
     },
     "forceskip": {
-        "cmdDescription": "Força pular a música que estiver tocando.",
-        "skipped": "{emoji} **{author}** pulou a faixa **`{track}`** a força."
+        "cmdDescription": "Forces to skip the track that is currently playing.",
+        "skipped": "{emoji} **{author}** skipped the track **`{track}`** by force."
     },
     "bassboost": {
-        "cmdDescription": "Ativa e desativa o Modo Bass Boost (mais graves).",
-        "enabled": "{emoji} **{author}** ativou o modo **`BASS BOOST`**. Sente o grave!",
-        "disabled": "{emoji} **{author}** desativou o modo **`BASS BOOST`**."
+        "cmdDescription": "Enables or disables the Bass Boost mode (more bass).",
+        "enabled": "{emoji} **{author}** enabled the **`BASS BOOST`** mode. Feel the bass!",
+        "disabled": "{emoji} **{author}** disabled the **`BASS BOOST`** mode."
     },
     "queue": {
         "cmdUsage": "[Page]",
-        "cmdDescription": "Lista todas as faixas da fila de reprodução.",
+        "cmdDescription": "List all the tracks from the queue.",
         "currentTrack": "Now Playing: [**{track}**]({track.uri}) `[{length}]` - {track.requester.mention}\n\n",
         "name": "Queue",
         "details": "Length: {length} | Page {page}/{pages}"
     },
     "reverse": {
-        "cmdDescription": "Inverte as faixas da fila de reprodução.",
-        "success": "{emoji} **{author}**, você inverteu a fila de reprodução."
+        "cmdDescription": "Inverts the tracks in the queue.",
+        "success": "{emoji} **{author}**, you inverted the current queue."
     }
 }
