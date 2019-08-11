@@ -6,7 +6,7 @@
     "botinfo": {
         "cmdDescription": "Mostra informações sobre o Bot.",
         "statistics": "Statistics",
-        "links": "[**Support Server**]({support}) | [**Invite**]({invite}) | [**Vote**]({vote}) | [**GitHub**]({github})\n\u200b",
+        "links": "[**Support Server**]({support}) | [**Invite**]({invite}) | [**Donate**]({donate}) | [**Vote**]({vote}) | [**GitHub**]({github})\n\u200b",
         "generalInfoTitle": "**GENERAL INFORMATION**",
         "generalInfoDesc": "**Ping** `[Shard {shard}/{shards}]`: {ping}ms\n**Servers**: {servers}\n**Members**: {members}\n**Players**: {players}\n**Lavalink Nodes**: {nodes}\n**Invoked Commands**: {commands}\n\u200b",
         "nodeInfo": "**Region**: {region}\n**Uptime**: {uptime}\n**Playing Players**: {stats.playing_players}/{stats.players}\n**RAM Usage**: {memory}"
@@ -21,7 +21,7 @@
         "aliases": "Aliases",
         "notSupplied": "Not supplied.",
         "notDefined": "Not defined.",
-        "links": "[**Support Server**]({support}) | [**Invite**]({invite}) | [**Vote**]({vote}) | [**GitHub**]({github})\n\n**[Prefixes]:** `d!<command>` | `li <command>`\n\u200b",
+        "links": "[**Support Server**]({support}) | [**Invite**]({invite}) | [**Donate**]({donate}) | [**Vote**]({vote}) | [**GitHub**]({github})\n\n**[Prefixes]:** `d!<command>` | `li <command>`\n\u200b",
         "categoryCommands": "**{category} Commands**: ({total})",
         "tip": "Type **{command} <Command>** to see more details about a command."
     },
