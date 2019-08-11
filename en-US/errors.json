@@ -1,17 +1,17 @@
 {
     "onCooldown": "{emoji} **{author}**, you must wait **`{cooldown}`** second(s) to be able to use this command again.",
-    "missingRole": "{emoji} **{author}**, you need the role **`{role}`** to be able to use this command.",
-    "inputError": "{emoji} Looks like you used the command incorrectly, **{author}**.\n**Use: `{usage}`**",
-    "missingPermissions": "{emoji} **{author}**, you need this specific permissions to be able to use this command:\n\n{permissions}",
-    "botMissingPermissions": "{emoji} **{author}**, I need this specific permissions to be able to use this command:\n\n{permissions}",
+    "missingRole": "{emoji} **{author}**, you need the role **`{role}`** in order to use this command.",
+    "inputError": "{emoji} Looks like you used the command incorrectly, **{author}**.\n**Usage: `{usage}`**",
+    "missingPermissions": "{emoji} **{author}**, you need the following permissions in order to use this command:\n\n{permissions}",
+    "botMissingPermissions": "{emoji} **{author}**, I need the following permissions in order to use this command:\n\n{permissions}",
     "notPlaying": "{emoji} **{author}**, I'm not playing nothing at the moment.",
     "emptyQueue": "{emoji} **{author}**, the queue is currently empty.",
     "invalidValue": "{emoji} **{author}**, you typed an invalid value.",
-    "notConnected": "{emoji} **{author}**, I'm not connected to any voice channel.",
-    "notSameVoiceChannel": "{emoji} **{author}**, you must be connected to my voice channel to be able to use this command.",
+    "notConnected": "{emoji} **{author}**, I'm not connected to any voice channels.",
+    "notSameVoiceChannel": "{emoji} **{author}**, you must be connected to my voice channel in order to use this command.",
     "waitingForPreviousChoice": "{emoji} **{author}**, you still didn't select a track from the last command!",
-    "userNotVoiceConnected": "{emoji} **{author}**, you must be connected to a voice channel to be able to use this command.",
+    "userNotVoiceConnected": "{emoji} **{author}**, you must be connected to a voice channel in order to use this command.",
     "fullVoiceChannel": "{emoji} **{author}**, your voice channel is full!",
     "fullQueue": "{emoji} **{author}**, the queue from this server is full! Remove some tracks or try again later.",
-    "notEnoughPermissionsToJoin": "{emoji} **{author}**, I need the permissions **`CONNECT`** and **`TALK`** on your voice channel."
+    "notEnoughPermissionsToJoin": "{emoji} **{author}**, I need the permissions **`CONNECT`** and **`SPEAK`** on your voice channel."
 }
