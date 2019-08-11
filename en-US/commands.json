@@ -28,6 +28,10 @@
     "ping": {
         "cmdDescription": "Shows the latency between Disco's connection with Discord."
     },
+    "donate": {
+        "cmdDescription": "Sends Disco's donation page.",
+        "text": "{emoji} Help me to stay online: <{link}>"
+    },
     "djrole": {
         "cmdUsage": "<@Mention|Name|ID>",
         "cmdDescription": "Defines the DJ role on this server.",
