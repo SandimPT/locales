@@ -8,7 +8,8 @@
         "statistics": "Statistics",
         "links": "[**Support Server**]({support}) | [**Invite**]({invite}) | [**Donate**]({donate}) | [**Vote**]({vote}) | [**GitHub**]({github})\n\u200b",
         "generalInfoTitle": "**GENERAL INFORMATION**",
-        "generalInfoDesc": "**Ping** `[Shard {shard}/{shards}]`: {ping}ms\n**Servers**: {servers}\n**Members**: {members}\n**Players**: {players}\n**Lavalink Nodes**: {nodes}\n**Uptime**: {uptime}\n**Read Messages**: {messages}\n**Invoked Commands**: {commands}\n\u200b",
+        "generalInfoDescLeft": "**Ping** `[Shard {shard}/{shards}]`: {ping}ms\n**Servers**: {servers}\n**Members**: {members}\n**Players**: {players}\n**Lavalink Nodes**: {nodes}\n\u200b",
+        "generalInfoDescRight": "**Uptime**: {uptime}\n**Read Messages**: {messages}\n**Invoked Commands**: {commands}\nPlayed Tracks: {played}",
         "nodeInfo": "**Region**: {region}\n**Uptime**: {uptime}\n**Playing Players**: {stats.playing_players}/{stats.players}\n**RAM Usage**: {memory}"
     },
     "help": {
