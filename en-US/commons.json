@@ -1,4 +1,5 @@
 {
     "createdBy": "Created by {creator}",
-    "exit": "exit"
+    "exit": "exit",
+    "command": "command"
 }

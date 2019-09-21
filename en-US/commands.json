@@ -22,8 +22,7 @@
         "aliases": "Aliases",
         "notSupplied": "Not supplied.",
         "notDefined": "Not defined.",
-        "notSpecified": "Not specified.",
-        "links": "[**Support Server**]({support}) | [**Invite**]({invite}) | [**Donate**]({donate}) | [**Vote**]({vote}) | [**GitHub**]({github})\n\n**[Prefixes]:** `d!<command>` | `li <command>`\n\u200b",
+        "links": "[**Support Server**]({support}) | [**Invite**]({invite}) | [**Donate**]({donate}) | [**Vote**]({vote}) | [**GitHub**]({github})\n\n**[Prefixes]:** {prefixes}\n\u200b",
         "categoryCommands": "**{category} Commands**: ({total})",
         "tip": "Type **{command} <Command>** to see more details about a command."
     },
@@ -33,6 +32,10 @@
     "donate": {
         "cmdDescription": "Sends Disco's donation page.",
         "text": "{emoji} Help me to stay online: <{link}>"
+    },
+    "whatsmyprefix": {
+        "cmdDescription": "Shows Disco's prefix on this server.",
+        "message": "{emoji} Hello, **{author}**! If you want to interact with me, use one of the following prefixes:\n{prefixes}"
     },
     "djrole": {
         "cmdUsage": "<@Mention|Name|ID>",
