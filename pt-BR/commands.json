@@ -22,6 +22,7 @@
         "aliases": "Outros Nomes",
         "notSupplied": "Não fornecida.",
         "notDefined": "Não definidos.",
+        "notSpecified": "Não especificado.",
         "links": "[**Servidor de Suporte**]({support}) | [**Adicionar**]({invite}) | [**Doar**]({donate}) | [**Votar**]({vote}) | [**GitHub**]({github})\n\n**[Prefixos]:** `d!<comando>` | `li <comando>`\n\u200b",
         "categoryCommands": "**Comandos de {category}**: ({total})",
         "tip": "Digite **{command} <Comando>** para ver mais informações sobre um comando."
@@ -77,6 +78,13 @@
         "cmdDescription": "Altera a localidade/idioma das mensagens do Disco no servidor.",
         "invalid": "{emoji} Você precisa especificar a localidade que deseja que eu use, **{author}**!\n\n**Linguagens Disponíveis**:\n> {available}",
         "success": "{emoji} **{author}**, você alterou minha localidade nesse servidor para **`{locale}`**."
+    },
+    "prefix": {
+        "cmdUsage": "<Prefixo>",
+        "cmdDescription": "Altera o prefixo do Disco no servidor.",
+        "invalid": "{emoji} **{author}**, você precisa fornecer um prefixo com até 6 caracteres!",
+        "reset": "{emoji} **{author}**, você resetou meu prefixo customizado nesse servidor!",
+        "success": "{emoji} **{author}**, agora eu apenas responderei a comandos invocados com o prefixo **`{prefix}`**."
     },
     "play": {
         "cmdUsage": "<Nome|URL>",

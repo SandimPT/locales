@@ -22,6 +22,7 @@
         "aliases": "Aliases",
         "notSupplied": "Not supplied.",
         "notDefined": "Not defined.",
+        "notSpecified": "Not specified.",
         "links": "[**Support Server**]({support}) | [**Invite**]({invite}) | [**Donate**]({donate}) | [**Vote**]({vote}) | [**GitHub**]({github})\n\n**[Prefixes]:** `d!<command>` | `li <command>`\n\u200b",
         "categoryCommands": "**{category} Commands**: ({total})",
         "tip": "Type **{command} <Command>** to see more details about a command."
@@ -77,6 +78,13 @@
         "cmdDescription": "Changes the locale/language of Disco's messages on this server.",
         "invalid": "{emoji} You must specify the locale you want me to use, **{author}**!\n\n**Available Locales**:\n> {available}",
         "success": "{emoji} **{author}**, you modified my locale on this server to **`{locale}`**."
+    },
+    "prefix": {
+        "cmdUsage": "<Prefix>",
+        "cmdDescription": "Changes Disco's prefix on this server.",
+        "invalid": "{emoji} **{author}**, you must specify a prefix with a maximum of 6 characters!",
+        "reset": "{emoji} **{author}**, you reseted my custom prefix on this server!",
+        "success": "{emoji} **{author}**, now I will only answer to commands invoked with the custom prefix **`{prefix}`**."
     },
     "play": {
         "cmdUsage": "<Name|URL>",
