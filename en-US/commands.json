@@ -23,7 +23,7 @@
         "notSupplied": "Not supplied.",
         "notDefined": "Not defined.",
         "links": "[**Support Server**]({support}) | [**Invite**]({invite}) | [**Donate**]({donate}) | [**Vote**]({vote}) | [**GitHub**]({github})\n\n**[Prefixes]:** {prefixes}\n\u200b",
-        "categoryCommands": "**{category} Commands**: ({total})",
+        "categoryCommands": "{emoji} **{category} Commands**: ({total})",
         "tip": "Type **{command} <Command>** to see more details about a command."
     },
     "ping": {
