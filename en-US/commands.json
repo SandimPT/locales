@@ -37,6 +37,20 @@
         "cmdDescription": "Shows Disco's prefix on this server.",
         "message": "{emoji} Hello, **{author}**! If you want to interact with me, use one of the following prefixes:\n{prefixes}"
     },
+    "serversettings": {
+        "cmdDescription": "Shows Disco's settings on this server.",
+        "title": "Server Settings",
+        "customPrefix": "Custom Prefix",
+        "djRole": "DJ Role",
+        "botChannel": "Bot Channel",
+        "locale": "Locale",
+        "defaultVolume": "Default Volume",
+        "disabledRoles": "Disabled Roles",
+        "disabledChannels": "Disabled Channels",
+        "disabledCommands": "Disabled Commands",
+        "localBans": "Local Bans",
+        "notDefined": "Not defined."
+    },
     "djrole": {
         "cmdUsage": "<@Mention|Name|ID>",
         "cmdDescription": "Defines the DJ role on this server.",
@@ -88,6 +102,13 @@
         "invalid": "{emoji} **{author}**, you must specify a prefix with a maximum of 6 characters!",
         "reset": "{emoji} **{author}**, you reseted my custom prefix on this server!",
         "success": "{emoji} **{author}**, now I will only answer to commands invoked with the custom prefix **`{prefix}`**."
+    },
+    "defaultvolume": {
+        "cmdUsage": "<1-150>",
+        "cmdDescription": "Changes Disco's default volume on this server. When someone invokes Disco to play something, it will always change it's player volume to the default volume.",
+        "invalid": "{emoji} **{author}**, you must give a value between **`1`** and **`150`**!",
+        "reset": "{emoji} **{author}**, you reseted my default volume on this server.",
+        "success": "{emoji} **{author}**, you changed my default volume to **`{volume}%`**."
     },
     "play": {
         "cmdUsage": "<Name|URL>",

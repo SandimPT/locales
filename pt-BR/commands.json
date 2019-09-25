@@ -23,7 +23,7 @@
         "notSupplied": "Não fornecida.",
         "notDefined": "Não definidos.",
         "links": "[**Servidor de Suporte**]({support}) | [**Adicionar**]({invite}) | [**Doar**]({donate}) | [**Votar**]({vote}) | [**GitHub**]({github})\n\n**[Prefixos]:** {prefixes}\n\u200b",
-        "categoryCommands": "**Comandos de {category}**: ({total})",
+        "categoryCommands": "{emoji} **Comandos de {category}**: ({total})",
         "tip": "Digite **{command} <Comando>** para ver mais informações sobre um comando."
     },
     "ping": {
@@ -36,6 +36,20 @@
     "whatsmyprefix": {
         "cmdDescription": "Mostra o prefixo do Disco no servidor.",
         "message": "{emoji} Olá, **{author}**! Para me usar, basta utilizar um dos seguintes prefixos:\n{prefixes}"
+    },
+    "serversettings": {
+        "cmdDescription": "Mostra as configurações do Disco no servidor.",
+        "title": "Opções do Servidor",
+        "customPrefix": "Prefixo Customizado",
+        "djRole": "Cargo DJ",
+        "botChannel": "Canal do Bot",
+        "locale": "Localidade",
+        "defaultVolume": "Volume Padrão",
+        "disabledRoles": "Cargos Desativados",
+        "disabledChannels": "Canais Desativados",
+        "disabledCommands": "Comandos Desativados",
+        "localBans": "Banimentos Locais",
+        "notDefined": "Não definido."
     },
     "djrole": {
         "cmdUsage": "<@Menção|Nome|ID>",
@@ -88,6 +102,13 @@
         "invalid": "{emoji} **{author}**, você precisa fornecer um prefixo com até 6 caracteres!",
         "reset": "{emoji} **{author}**, você resetou meu prefixo customizado nesse servidor!",
         "success": "{emoji} **{author}**, agora eu apenas responderei a comandos invocados com o prefixo **`{prefix}`**."
+    },
+    "defaultvolume": {
+        "cmdUsage": "<1-150>",
+        "cmdDescription": "Altera o volume padrão do Disco nesse servidor. Sempre que o Disco for chamado para tocar algo, ele irá alterar o volume do player para o volume padrão.",
+        "invalid": "{emoji} **{author}**, você precisa fornecer um valor entre **`1`** e **`150`**!",
+        "reset": "{emoji} **{author}**, você resetou meu volume padrão nesse servidor.",
+        "success": "{emoji} **{author}**, você alterou meu volume padrão para **`{volume}%`**."
     },
     "play": {
         "cmdUsage": "<Nome|URL>",
