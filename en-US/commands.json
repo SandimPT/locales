@@ -189,5 +189,19 @@
     "reverse": {
         "cmdDescription": "Inverts the tracks in the queue.",
         "success": "{emoji} **{author}**, you inverted the current queue."
+    },
+    "lyrics": {
+        "cmdUsage": "[Song Name]",
+        "cmdDescription": "If no name is given, it shows the lyrics for the current playing track, otherwise, search for the lyrics of the specified song name.",
+        "notPlaying": "{emoji} **{author}**, I'm not playing nothing at the moment! Try again supplying the name of the song you want to view the lyrics, or after adding something to the queue.",
+        "currentNotFound": "{emoji} **{author}**, I could not find nothing related to what I'm currently playing! Try again supplying the name of the song you want to view the lyrics.",
+        "notFound": "{emoji} **{author}**, I could not find nothing related to the specified name.",
+        "lyricsNotFound": "{emoji} **{author}**, I could not find no lyrics related to your choice.",
+        "searchResults": "Search Results",
+        "chooseOne": "Type the number of the specific song you desire to view the lyrics",
+        "nowPlaying": "(Now Playing)",
+        "typeToCancel" :"Type \"{value}\" to cancel.",
+        "songLyrics": "Song Lyrics",
+        "viewMore": "... [View full lyrics]({url})"
     }
 }
