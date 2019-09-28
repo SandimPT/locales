@@ -1,7 +1,7 @@
 {
     "invite": {
         "cmdDescription": "Envia o link de convite para adicionar o Bot.",
-        "text": "[Clique aqui para adicionar o **Disco** em seu servidor]({link})"
+        "text": "[Clique aqui para adicionar o **Disco** no teu servidor servidor]({link})"
     },
     "botinfo": {
         "cmdDescription": "Mostra informações sobre o Bot.",
@@ -27,7 +27,7 @@
         "tip": "Digite **{command} <Comando>** para ver mais informações sobre um comando."
     },
     "ping": {
-        "cmdDescription": "Mostra a latência entre a conexão do Bot com o Discord."
+        "cmdDescription": "Mostra o ping entre a conexão do Bot com o Discord."
     },
     "donate": {
         "cmdDescription": "Envia o link da página de doações para o Disco.",
@@ -54,61 +54,61 @@
     "djrole": {
         "cmdUsage": "<@Menção|Nome|ID>",
         "cmdDescription": "Define o cargo DJ no servidor.",
-        "reset": "{emoji} **{author}**, você resetou o **`Cargo DJ`** desse servidor.",
-        "update": "{emoji} **{author}**, você definiu o cargo **`{role}`** como `Cargo DJ`."
+        "reset": "{emoji} **{author}**, tu resetaste o **`Cargo DJ`** desse servidor.",
+        "update": "{emoji} **{author}**, tu definiste o cargo **`{role}`** como `Cargo DJ`."
     },
     "disablechannel": {
         "cmdUsage": "<#Menção|Nome|ID>",
         "cmdDescription": "Desativa ou ativa um canal em que o Bot possa ser usado.",
-        "allow": "{emoji} **{author}**, você me permitiu ser usado no canal {channel}.",
-        "disallow": "{emoji} **{author}**, você me proibiu de ser usado no canal {channel}."
+        "allow": "{emoji} **{author}**, tu permite me ser usado no canal {channel}.",
+        "disallow": "{emoji} **{author}**, tu proibes me de ser usado no canal {channel}."
     },
     "disablerole": {
         "cmdUsage": "<@Menção|Nome|ID>",
         "cmdDescription": "Permite ou proíbe membros com um cargo específico de usarem o Bot.",
-        "higherRole": "{emoji} **{author}**, você não pode desativar um cargo que seja igual ou maior que o seu cargo mais alto.",
-        "enabled": "{emoji} **{author}**, você me permitiu ser usado por membros com o cargo **`{role}`**.",
-        "disabled": "{emoji} **{author}**, você me proibiu de ser usado por membros com o cargo **`{role}`**."
+        "higherRole": "{emoji} **{author}**, tu não podes desativar um cargo que seja igual ou maior que o seu cargo mais alto.",
+        "enabled": "{emoji} **{author}**, tu permite me ser usado por membros com o cargo **`{role}`**.",
+        "disabled": "{emoji} **{author}**, tu proibes me de ser usado por membros com o cargo **`{role}`**."
     },
     "localban": {
         "cmdUsage": "<@Menção|Nome|ID>",
         "cmdDescription": "Permite ou proíbe um membro de usar o Bot nesse servidor.",
-        "higherMember": "{emoji} **{author}**, você não pode fazer um banimento local em um membro que possua direitos equivalentes ou maiores que o seu.",
-        "unban": "{emoji} **{author}**, você me permitiu ser usado pelo membro **`{member}`** nesse servidor.",
-        "ban": "{emoji} **{author}**, você me proibiu de ser usado pelo membro **`{member}`** nesse servidor."
+        "higherMember": "{emoji} **{author}**, tu não podes fazer um banimento local em um membro que possua direitos equivalentes ou maiores que o seu.",
+        "unban": "{emoji} **{author}**, vtu permite me de ser usado pelo membro **`{member}`** nesse servidor.",
+        "ban": "{emoji} **{author}**, tu proibes me de ser usado pelo membro **`{member}`** nesse servidor."
     },
     "disablecommand": {
         "cmdUsage": "<Nome>",
         "cmdDescription": "Permite ou proíbe que um comando específico seja usado nesse servidor.",
         "cantDisable": "{emoji} **{author}**, você não pode desativar esse comando.",
-        "enabled": "{emoji} **{author}**, você permitiu o uso do comando **`{command}`** nesse servidor.",
-        "disabled": "{emoji} **{author}**, você proibiu o uso do comando **`{command}`** nesse servidor."
+        "enabled": "{emoji} **{author}**, tu permites o uso do comando **`{command}`** nesse servidor.",
+        "disabled": "{emoji} **{author}**, tu proibes o uso do comando **`{command}`** nesse servidor."
     },
     "botchannel": {
         "cmdUsage": "<#Menção|Nome|ID>",
         "cmdDescription": "Restringe o uso do Bot a apenas um canal específico.",
-        "reset": "{emoji} **{author}**, você resetou o **`Canal do Bot`** nesse servidor.",
-        "set": "{emoji} **{author}**, você me restringiu para ser usado apenas no canal {channel}."
+        "reset": "{emoji} **{author}**, tu deste reset ao **`Canal do Bot`** nesse servidor.",
+        "set": "{emoji} **{author}**, tu restringestes me para ser usado apenas no canal {channel}."
     },
     "locale": {
         "cmdUsage": "<Localidade>",
         "cmdDescription": "Altera a localidade/idioma das mensagens do Disco no servidor.",
-        "invalid": "{emoji} Você precisa especificar a localidade que deseja que eu use, **{author}**!\n\n**Linguagens Disponíveis**:\n> {available}",
-        "success": "{emoji} **{author}**, você alterou minha localidade nesse servidor para **`{locale}`**."
+        "invalid": "{emoji} tu precisas especificar a localidade que deseja que eu use, **{author}**!\n\n**Linguagens Disponíveis**:\n> {available}",
+        "success": "{emoji} **{author}**, tu alteraste minha localidade nestee servidor para **`{locale}`**."
     },
     "prefix": {
         "cmdUsage": "<Prefixo>",
         "cmdDescription": "Altera o prefixo do Disco no servidor.",
-        "invalid": "{emoji} **{author}**, você precisa fornecer um prefixo com até 6 caracteres!",
-        "reset": "{emoji} **{author}**, você resetou meu prefixo customizado nesse servidor!",
+        "invalid": "{emoji} **{author}**, tu precisas fornecer um prefixo com até 6 caracteres!",
+        "reset": "{emoji} **{author}**, tu deste reset ao meu prefixo customizado nesse servidor!",
         "success": "{emoji} **{author}**, agora eu apenas responderei a comandos invocados com o prefixo **`{prefix}`**."
     },
     "defaultvolume": {
         "cmdUsage": "<1-150>",
         "cmdDescription": "Altera o volume padrão do Disco nesse servidor. Sempre que o Disco for chamado para tocar algo, ele irá alterar o volume do player para o volume padrão.",
-        "invalid": "{emoji} **{author}**, você precisa fornecer um valor entre **`1`** e **`150`**!",
-        "reset": "{emoji} **{author}**, você resetou meu volume padrão nesse servidor.",
-        "success": "{emoji} **{author}**, você alterou meu volume padrão para **`{volume}%`**."
+        "invalid": "{emoji} **{author}**, tu precisas fornecer um valor entre **`1`** e **`150`**!",
+        "reset": "{emoji} **{author}**, tu deste reset ao meu volume padrão nesse servidor.",
+        "success": "{emoji} **{author}**, tu alterastes meu volume padrão para **`{volume}%`**."
     },
     "play": {
         "cmdUsage": "<Nome|URL>",
@@ -119,7 +119,7 @@
         "chooseOne": "Digite o número correspondente à faixa que você deseja ouvir",
         "searchResults": "Resultados da Busca",
         "typeToCancel": "Digite \"{value}\" para cancelar.",
-        "connected": "{emoji} Me conectei ao canal de voz **`{channel}`**."
+        "connected": "{emoji} Conectei me ao canal de voz **`{channel}`**."
     },
     "shuffle": {
         "cmdDescription": "Mistura as faixas da fila de reprodução.",
@@ -127,8 +127,8 @@
     },
     "repeat": {
         "cmdDescription": "Coloca em loop, a música que estiver tocando.",
-        "disable": "{emoji} **{author}**, você desativou o modo repetição para a faixa **`{track}`**.",
-        "enable": "{emoji} **{author}**, você ativou o modo repetição para a faixa **`{track}`**."
+        "disable": "{emoji} **{author}**, tu desativastes o modo repetição para a faixa **`{track}`**.",
+        "enable": "{emoji} **{author}**, você ativaste o modo repetição para a faixa **`{track}`**."
     },
     "stop": {
         "cmdDescription": "Limpa a fila de reprodução e desconecta o bot do canal de voz.",
@@ -137,8 +137,8 @@
     "volume": {
         "cmdUsage": "<1-150>",
         "cmdDescription": "Aumenta ou diminui o volume do player.",
-        "invalidValue": "{emoji} **{author}**, você deve fornecer um valor entre **`1`** e **`150`**.",
-        "changed": "{emoji} **{author}** alterou o volume do player para **`{value}%`**."
+        "invalidValue": "{emoji} **{author}**, tu deves fornecer pelo menos um valor entre **`1`** e **`150`**.",
+        "changed": "{emoji} **{author}** alteraste o volume do player para **`{value}%`**."
     },
     "clear": {
         "cmdDescription": "Limpa a fila de reprodução.",
@@ -153,7 +153,7 @@
     "remove": {
         "cmdUsage": "<Posição>",
         "cmdDescription": "Remove uma faixa especifica da fila de reprodução.",
-        "removed": "{emoji} **{author}**, você removeu a faixa **`{track}`** da fila de reprodução."
+        "removed": "{emoji} **{author}**, tu removeu a faixa **`{track}`** da fila de reprodução."
     },
     "playat": {
         "cmdUsage": "<Posição>",
@@ -193,10 +193,10 @@
     "lyrics": {
         "cmdUsage": "[Nome da Música]",
         "cmdDescription": "Mostra a letra da música que estiver tocando ou pesquisa pela letra de outras, caso um nome for fornecido.",
-        "notPlaying": "{emoji} **{author}**, eu não estou tocando nada no momento! Tente novamente fornecendo o nome de uma música para ser pesquisada, ou após por algo para tocar.",
-        "currentNotFound": "{emoji} **{author}**, eu não consegui encontrar nenhum resultado referente ao que estou tocando agora.",
+        "notPlaying": "{emoji} **{author}**, eu não estou a tocar nada no momento! Tente novamente ao dar me o nome de uma música para ser pesquisada, ou após por algo para tocar.",
+        "currentNotFound": "{emoji} **{author}**, eu não consegui encontrar nenhum resultado referente ao que estou tocar agora.",
         "notFound": "{emoji} **{author}**, eu não consegui encontrar nenhum resultado referente ao nome fornecido.",
-        "lyricsNotFound": "{emoji} **{author}**, eu não consegui encontrar nenhuma letra referente ao que você selecionou.",
+        "lyricsNotFound": "{emoji} **{author}**, eu não consegui encontrar nenhuma letra referente ao que tu selecionaste.",
         "searchResults": "Resultados da Busca",
         "chooseOne": "Digite o número correspondente à música que você deseja ver as letras",
         "nowPlaying": "(Tocando Agora)",
